@@ -2,9 +2,9 @@
   "name": "articles",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for articles goes here",
+  "description": "Play area for technical articles",
   "license": "MIT",
-  "author": "",
+  "author": "Derek Gray <github@mudflye.org>",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -18,6 +18,7 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
+    "ember-browserify": "^1.2.0",
     "ember-cli": "~2.16.0-beta.2",
     "ember-cli-app-version": "^3.0.0",
     "ember-cli-babel": "^6.6.0",
@@ -40,5 +41,6 @@
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
-  }
+  },
+  "main": "index.js"
 }
