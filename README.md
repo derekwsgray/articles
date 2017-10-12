@@ -15,7 +15,7 @@ You will need the following things properly installed on your computer.
 
 * `git clone <repository-url>` this repository
 * `cd articles`
-* `npm install`
+* `yarn install`
 
 ## Running / Development
 
